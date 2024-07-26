@@ -1,0 +1,7 @@
+K-Pangrams
+Difficulty: EasyAccuracy: 20.91%Submissions: 43K+Points: 2
+Given a string str and an integer k, return true if the string can be changed into a pangram after at most k operations, else return false.
+
+A single operation consists of swapping an existing alphabetic character with any other lowercase alphabetic character.
+
+Note - A pangram is a sentence containing every letter in the english alphabet.
