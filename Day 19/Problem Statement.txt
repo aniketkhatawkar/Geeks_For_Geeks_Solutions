@@ -1,0 +1,10 @@
+Sum of Middle elements of two sorted arrays
+
+Given 2 sorted integer arrays arr1 and arr2 of the same size. 
+Find the sum of the middle elements of two sorted arrays arr1 and arr2.
+
+Examples:
+
+Input: arr1 = [1, 2, 4, 6, 10], arr2 = [4, 5, 6, 9, 12]
+Output: 11
+Explanation: The merged array looks like [1, 2, 4, 4, 5, 6, 6, 9, 10, 12]. Sum of middle elements is 11 (5 + 6).
