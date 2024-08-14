@@ -1,0 +1,10 @@
+Longest Common Substring
+
+You are given two strings str1 and str2. 
+Your task is to find the length of the longest common substring among the given strings.
+
+Examples:
+
+Input: str1 = "ABCDGH", str2 = "ACDGHR"
+Output: 4
+Explanation: The longest common substring is "CDGH" which has length 4.
