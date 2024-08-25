@@ -1,0 +1,10 @@
+Number of pairs
+
+Given two positive integer arrays arr and brr, 
+find the number of pairs such that xy > yx (raised to power of) where x is an element from arr and y is an element from brr.
+
+Examples :
+
+Input: arr[] = [2, 1, 6], brr[] = [1, 5]
+Output: 3
+Explanation: The pairs which follow xy > yx are: 21 > 12,  25 > 52 and 61 > 16 
