@@ -1,26 +1,32 @@
-class Solution {
-    int getMinDiff(int[] arr, int k) {
-        // code here
-        int n=arr.length;
-        int max=Integer.MAX_VALUE;
-        int min=Integer.MIN_VALUE;
+class Solution
+{
+    //Function to check if brackets are balanced or not.
+    static boolean ispar(String x)
+    {
+        // add your code here
+        Stack<Character> st=new Stack<>();
+        int n=x.length();
+        int i=0;
         
-        Arrays.sort(arr);
-        
-        int res=arr[n-1]-arr[0];
-        
-        for(int i=1;i<n;i++){
-            if(arr[i]>k){
-                max=Math.max(arr[i-1]+k,arr[n-1]-k);
-                min=Math.min(arr[0]+k,arr[i]-k);
-                res=Math.min(res,max-min);
+        while(i<n){
+            char c=x.charAt(i);
+            
+            if(c=='('||c=='{'||c=='[')
+                st.push(c);
+            else{
+                if(st.isEmpty()) 
+                    return false;
+                char t=st.pop();
                 
+                if((t=='(' && c!=')')||(t=='{' && c!='}')||(t=='[' && c!=']')) 
+                    return false;
             }
-            else {
-                continue;
-            }
+            i++;
         }
-        
-        return res;
+          
+        if(!st.isEmpty()) 
+            return false;
+            
+        return true;
     }
 }
