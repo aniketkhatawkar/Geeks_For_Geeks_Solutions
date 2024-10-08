@@ -1,0 +1,9 @@
+Largest Pair Sum
+
+Find the largest pair sum in an array of distinct integers.
+
+Examples :
+
+Input: arr[] = [12, 34, 10, 6, 40]
+Output: 74
+Explanation: Sum of 34 and 40 is the largest, i.e, 34 + 40 = 74.
