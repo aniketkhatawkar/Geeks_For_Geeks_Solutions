@@ -1,0 +1,12 @@
+Find the Sum of Last N nodes of the Linked List
+
+Given a single linked list, calculate the sum of the last n nodes.
+
+Note: It is guaranteed that n <= number of nodes.
+
+Examples:
+
+Input: Linked List: 5->9->6->3->4->10, n = 3
+
+Output: 17
+Explanation: The sum of the last three nodes in the linked list is 3 + 4 + 10 = 17.
