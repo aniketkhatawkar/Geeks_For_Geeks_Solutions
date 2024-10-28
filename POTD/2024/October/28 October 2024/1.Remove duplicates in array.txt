@@ -1,0 +1,10 @@
+Remove duplicates in array
+
+Given an array arr consisting of positive integer numbers, 
+remove all duplicate numbers.
+
+Example:
+
+Input: arr[] = [2, 2, 3, 3, 7, 5] 
+Output: [2, 3, 7, 5]
+Explanation: After removing the duplicates 2 and 3 we get 2 3 7 5.
