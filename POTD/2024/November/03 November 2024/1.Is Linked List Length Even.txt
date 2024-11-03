@@ -1,0 +1,10 @@
+Is Linked List Length Even?
+
+Given a linked list, your task is to complete the function isLengthEven() which contains the head of the linked list, and check whether the length of the linked list is even or not. Return true if it is even, otherwise false.
+
+Examples:
+
+Input: Linked list: 12->52->10->47->95->0
+
+Output: true
+Explanation: The length of the linked list is 6 which is even, hence returned true.
