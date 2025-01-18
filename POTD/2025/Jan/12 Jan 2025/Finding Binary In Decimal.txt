@@ -1,0 +1,9 @@
+Finding Binary In Decimal
+
+Problem statement
+Given an integer ‘N’, the task is to find the number of integers between 1 to N whose decimal number representation contains only 0s and 1s.
+
+For example, 1011 , 11, 100 are all valid integers since they consist of 1s and 0s only, however 210, 3401 are not valid integers.
+
+Note :
+You don’t need to print anything. It has already been taken care of. Just implement the given function.
