@@ -1,0 +1,14 @@
+Stock Buy and Sell – Max K Transactions Allowed
+
+In the stock market, a person buys a stock and sells it on some future date. You are given an array prices[] representing stock prices on different days and a positive integer k, find out the maximum profit a person can make in at-most k transactions.
+
+A transaction consists of buying and subsequently selling a stock and new transaction can start only when the previous transaction has been completed.
+
+Examples :
+
+Input: prices[] = [10, 22, 5, 80], k = 2
+Output: 87
+Explaination:
+1st transaction: Buy at 10 and sell at 22. 
+2nd transaction : Buy at 5 and sell at 80.
+Total Profit will be 12 + 75 = 87.

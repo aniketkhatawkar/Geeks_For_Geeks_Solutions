@@ -1,0 +1,11 @@
+Longest Increasing Subsequence
+
+Given an array arr[] of non-negative integers, the task is to find the length of the Longest Strictly Increasing Subsequence (LIS).
+
+A subsequence is strictly increasing if each element in the subsequence is strictly less than the next element.
+
+Examples:
+
+Input: arr[] = [5, 8, 3, 7, 9, 1]
+Output: 3
+Explanation: The longest strictly increasing subsequence could be [5, 7, 9], which has a length of 3.
