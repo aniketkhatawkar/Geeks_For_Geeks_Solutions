@@ -1,0 +1,11 @@
+Kth Smallest Number in Multiplication Table
+
+Given three integers m, n and k. Consider a grid of m * n, where mat[i][j] = i * j (1 based index). The task is to return the kth smallest element in the m * n multiplication table.
+
+Examples :
+
+Input: m = 3, n = 3, k = 5
+Output: 3
+Explanation: 
+
+The 5th smallest element is 3. 

@@ -1,0 +1,10 @@
+Unique Number III
+
+Given an array of integers arr[] where, every element appears thrice except for one which occurs once.
+Find that element which occurs once.
+
+Examples:
+
+Input: arr[] = [1, 10, 1, 1]
+Output: 10
+Explanation: 10 occurs once in the array while the other element 1 occurs thrice.

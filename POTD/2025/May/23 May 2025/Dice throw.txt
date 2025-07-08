@@ -1,0 +1,9 @@
+Dice throw
+
+Given n dice each with m faces. Find the number of ways to get sum x which is the summation of values on each face when all the dice are thrown.
+
+Example:
+
+Input: m = 6, n = 3, x = 12
+Output: 25
+Explanation: There are 25 total ways to get the Sum 12 using 3 dices with faces from 1 to 6.

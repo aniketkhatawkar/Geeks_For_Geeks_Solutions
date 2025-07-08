@@ -1,0 +1,9 @@
+Minimum Deletions
+
+Given a string s, write a program to delete the minimum number of characters from the string so that the resultant string is a palindrome, while maintaining the order of characters.
+
+Examples:
+
+Input: s = "aebcbda"
+Output: 2
+Explanation: Remove characters 'e' and 'd'.

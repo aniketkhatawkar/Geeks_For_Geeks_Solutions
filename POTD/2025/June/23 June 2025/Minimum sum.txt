@@ -1,0 +1,9 @@
+Minimum sum
+
+Given an array arr[ ] consisting of digits, your task is to form two numbers using all the digits such that their sum is minimized. Return the minimum possible sum as a string with no leading zeroes.
+
+Examples :
+
+Input: arr[] = [6, 8, 4, 5, 2, 3]
+Output: "604"
+Explanation: The minimum sum is formed by numbers 358 and 246.

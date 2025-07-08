@@ -1,0 +1,10 @@
+
+LCS of three strings
+
+Given three strings s1, s2, and s3 containing uppercase letters, lowercase letters, and digits, find the length of longest common sub-sequence in all three given strings.
+
+Examples:
+
+Input: s1 = "geeks", s2 = "geeksfor", s3 = "geeksforgeeks"
+Output: 5
+Explanation: "geeks"is the longest common subsequence with length 5.

@@ -1,0 +1,9 @@
+K-th Largest Sum Contiguous Subarray
+
+Given an array arr[] of size n, find the sum of the K-th largest sum among all contiguous subarrays. In other words, identify the K-th largest sum from all possible subarrays and return it.
+
+Examples:
+
+Input: arr[] = [3, 2, 1], k = 2 
+Output: 5
+Explanation: The different subarray sums we can get from the array are = [6, 5, 3, 2, 1]. Where 5 is the 2nd largest.

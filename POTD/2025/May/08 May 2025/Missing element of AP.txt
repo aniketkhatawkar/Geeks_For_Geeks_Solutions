@@ -1,0 +1,11 @@
+Missing element of AP
+
+Given a sorted array arr[] that represents an Arithmetic Progression (AP) with exactly one missing element, find the missing number.
+
+Note: An element will always exist that, upon inserting into a sequence forms Arithmetic progression. If the given sequence already forms a valid complete AP, return the (n+1)-th element that would come next in the sequence.
+
+Examples:
+
+Input: arr[] = [2, 4, 8, 10, 12, 14]
+Output: 6
+Explanation: Actual AP should be 2, 4, 6, 8, 10, 12, 14.

@@ -1,0 +1,9 @@
+Longest subarray with Atmost two distinct integers
+
+Given an array arr[] consisting of positive integers, your task is to find the length of the longest subarray that contains at most two distinct integers.
+
+Examples:
+
+Input: arr[] = [2, 1, 2]
+Output: 3
+Explanation: The entire array [2, 1, 2] contains at most two distinct integers (2 and 1). Hence, the length of the longest subarray is 3.

@@ -1,0 +1,12 @@
+Sum of nodes on the longest path
+
+Given a binary tree root[], you need to find the sum of the nodes on the longest path from the root to any leaf node. If two or more paths have the same length, the path with the maximum sum of node values should be considered.
+
+Examples:
+
+Input: root[] = [4, 2, 5, 7, 1, 2, 3, N, N, 6, N]
+ 
+Output: 13
+Explanation:
+
+The highlighted nodes (4, 2, 1, 6) above are part of the longest root to leaf path having sum = (4 + 2 + 1 + 6) = 13
